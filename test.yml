@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Suni, server: 44.159.49.119, port: 36035, type: vmess, uuid: 8a414859-b114-4645-9b0a-4526514e575b, alterId: 0, cipher: auto, tls: false}
+  - {name: Suni, server: 43.159.49.119, port: 36035, type: vmess, uuid: 8a414859-b114-4645-9b0a-4526514e575b, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
